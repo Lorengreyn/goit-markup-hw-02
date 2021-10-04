@@ -1,0 +1,72 @@
+/* Для хранения палитры цветов макета (текст, фон, выделение) используются CSS-переменные. */
+:root {
+    --text-color: #757575;
+    --text-bold-color: #212121;
+    --transparent-text-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196f3;
+    --hero-button-hover-color: #188ce8;
+    --footer-color: #2f303a;
+    --gray-background: #f5f4fa;
+    --header-line-color: #ececec;
+    --white: #fff;
+  }
+  
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+.nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  color: var(--accent-color);
+}
+.nav__adress{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  color: inherit;
+}
+.nav:hover,
+.nav:focus,
+.nav__adress:hover,
+.nav__adress:focus{
+    color: var(--accent-color);
+}
+.web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--accent-color);
+}
+.Studio {
+    color: #000000
+}
+.section {
+    
+}
+.bg {
+    text-decoration-color:  #fff;
+    background: #2F303A;
+}
+.footer {
+    background-color: var(--footer-color);
+}
+.Studio-footer {
+    color: var(--white);
+}
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
